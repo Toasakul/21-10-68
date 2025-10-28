@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<form action="/form/" method="POST">
+<div>
+    <label for="fullname">ชื่อ - นามสกุล :</label>
+    <input type="text" id="fullname" name="user_email" required>
+</div>
+<div>
+    <label for="usernemail">อีเมล</label>
+    <input type="email" id="useremail" name="user_email" required>
+</div>
+<div>
+    <Label for="topic">หัวข้อติดต่อ</Label>
+    <select name="user_topic" id="topic">
+        <option value="general">สอบถามปัญหา</option>
+        <option value="support">แจ้งปัญหา</option>
+    </select>
+</div>
+<div>
+    <label for="message">ข้อความ</label>
+    <textarea name="user_message" id="message"></textarea>
+</div>
+<div>
+    <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+    <label for="subscribe">รับข่าวสารจากเรา</label>
+ </div>
+ <div>
+    <button type="submit">ส่งข้อความ</button>
+ </div>
+</form>
+</html>
